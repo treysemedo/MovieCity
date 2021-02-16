@@ -1,0 +1,46 @@
+.movieGroup {
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+
+.movieGroup h2 {
+  margin: 30px 0px 30px 30px;
+}
+
+.movieGroup--listarea {
+  overflow-x: hidden;
+  padding-left: 30px;
+}
+
+.movieGroup--item {
+  display: inline-block;
+  width: 250px;
+}
+
+.movieGroup--item img {
+  display: inline-block;
+  width: 100%;
+  transform: scale(0.9);
+  transition: all ease 0.3s;
+}
+
+.movieGroup--item img:hover {
+  transform: scale(1);
+  cursor: pointer;
+}
+.movieCard {
+  margin-top: 0;
+  margin-bottom: -400px;
+  color: #fca311;
+}
+.movieCard {
+  display: inline-block;
+  width: 100%;
+  transform: scale(0.9);
+  transition: all ease 0.3s;
+}
+
+.movieCard:hover {
+  transform: scale(1);
+  cursor: pointer;
+}

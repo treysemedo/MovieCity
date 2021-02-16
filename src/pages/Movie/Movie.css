@@ -1,0 +1,81 @@
+.Movie--container {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 50px);
+  overflow-y: hidden;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.Movie--container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: rgba(11, 12, 16, 0.8);
+  width: 100vw;
+  height: 100vh;
+}
+.Movie--details {
+  width: 90%;
+  height: 90%;
+  background: rgba(11, 12, 16, 0.96);
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Movie--details h2 {
+}
+.Movie--details img {
+  display: flex;
+  width: 40%;
+  margin: auto;
+  margin-left: 20%;
+  margin-top: 10%;
+  transition: all ease 0.3s;
+}
+
+.Movie--details p {
+  color: white;
+  font-family: montserrat;
+  font-size: 2vh;
+  width: 90%;
+}
+.Movie--details button {
+  border: none;
+  background: #404040;
+  color: #ffffff !important;
+  font-weight: 100;
+  text-transform: uppercase;
+  border-radius: 6px;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+  font-family: montserrat;
+  margin: 5px;
+  outline: none;
+  width: 90%;
+  height: 4vh;
+  font-size: 2vh;
+  font-family: montserrat;
+}
+
+.Movie--details button:hover {
+  color: #404040 !important;
+  font-weight: 700 !important;
+  letter-spacing: 3px;
+  background: #006d77;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 109, 119, 1);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 109, 119, 1);
+  transition: all 0.3s ease 0s;
+}
+
+.Movie {
+  width: 50%;
+  padding-bottom: 5%;
+}

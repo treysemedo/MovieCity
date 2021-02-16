@@ -1,0 +1,87 @@
+@font-face {
+  font-family: montserrat;
+  src: url(../../fonts/Montserrat-Regular.ttf);
+}
+
+.banner {
+  height: 70vh;
+  margin: 0px;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner img {
+  height: 70vh;
+  width: 100vw;
+}
+
+.banner--vertical {
+  width: inherit;
+  height: inherit;
+  background: linear-gradient(to top, #0b0c10 1%, transparent 99%);
+}
+.banner--horizontal {
+  width: inherit;
+  height: inherit;
+  background: linear-gradient(to right, #0b0c10 10%, transparent 90%);
+  padding: 0 70px;
+}
+
+.category {
+  display: inline-block;
+  margin-top: 100px;
+}
+.category label {
+  display: inline-block;
+  font-size: 20px;
+  color: #ffffff;
+  font-family: montserrat;
+  width: 120px;
+}
+
+.category select {
+  background-color: #006d77;
+  color: #ffffff;
+  padding: 8px 14px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 15px;
+  font-family: montserrat;
+  width: 140px;
+}
+
+.category select option {
+  position: absolute;
+  background-color: #006d77;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  font-size: 15px;
+}
+
+.hb {
+  padding: 0px;
+}
+
+.hb input {
+  padding: 8px 16px;
+  margin-left: 120px;
+  margin-top: 20px;
+  width: 140px;
+  font-family: montserrat;
+  font-size: 15px;
+}
+
+.hb1 {
+  padding: 10px;
+}
+.hb1 input {
+  font-family: montserrat;
+  font-size: 15px;
+}
+.hb1 input[type='submit'] {
+  margin-left: 10px;
+}

@@ -1,0 +1,40 @@
+@font-face {
+  font-family: montserrat;
+  src: url(../../fonts/Montserrat-Regular.ttf);
+}
+
+.hb1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hb1 button {
+  border: none;
+  background: #404040;
+  color: #ffffff !important;
+  font-weight: 100;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  border-radius: 6px;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+  font-family: montserrat;
+  font-size: 16px;
+  margin: 5px;
+  outline: none;
+}
+
+.hb1 button:hover {
+  color: #404040 !important;
+  font-weight: 700 !important;
+  letter-spacing: 3px;
+  background: #006d77;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 109, 119, 1);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 109, 119, 1);
+  transition: all 0.3s ease 0s;
+}
+
+.bt1C {
+  background: #fca311 !important;
+}
